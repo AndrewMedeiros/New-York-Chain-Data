@@ -1,0 +1,1 @@
+[{"name": "efficiency_gap", "initial_plan_score": -0.01948016563787875, "fraction_as_high": 1.0, "p_value": 1.4142135623730951, "opposite_p_value": 0.0}]

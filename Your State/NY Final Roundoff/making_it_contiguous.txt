@@ -1,0 +1,12 @@
+the Rounded.shp file did not have completely contiguous subgraphs 
+of each congressional district (column name CD). 
+
+The two districts that failed were 3607 and 3608. 
+
+In order to fix this problem, we changed the outlying vtds that were 
+incorrectly assigned into the district that their neighbors belonged to. 
+
+The problematic vtds are shown in closeup in the folder discontiguous_pics.
+
+After this, we used the construct_graph functionality in RunDMCMC to create 
+rook and queen adjacency graphs
